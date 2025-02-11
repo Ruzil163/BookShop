@@ -1,0 +1,29 @@
+{
+  "name": "book_shop_project",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Ruzil Hafizov",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --open",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.8",
+    "@babel/preset-env": "^7.26.8",
+    "@babel/preset-react": "^7.26.3",
+    "babel-loader": "^9.2.1",
+    "copy-webpack-plugin": "^12.0.2",
+    "css-loader": "^7.1.2",
+    "css-minimizer-webpack-plugin": "^7.0.0",
+    "html-webpack-plugin": "^5.6.3",
+    "sass": "^1.83.4",
+    "sass-loader": "^16.0.4",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
+  }
+}
